@@ -3,9 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	printWelcome()
-	name := getName()
-	printGreeting(name)
+	printWelcome() 
+	printGreeting(getName()) //input getName() instead piping
 	fmt.Println("Let's go on an adventure!")
 	travel()
 }

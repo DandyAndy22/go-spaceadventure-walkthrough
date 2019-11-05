@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	printWelcome() 
-	printGreeting(getName()) //input getName() instead piping, function is mselly if it does more than one thing. beyond it's defined capacity. 
-	fmt.Println("Let's go on an adventure!") //extract to a function perhaps
+	printGreeting(getInput("What is your name?")) //input getName() instead piping, function is mselly if it does more than one thing. beyond it's defined capacity. 
+	adventureTime()
 	travel()
 }
 
@@ -14,15 +14,12 @@ func printWelcome() {
 	fmt.Println("There are 8 planets to explore.")
 }
 
-func getName() string{
-	var name string
-	fmt.Println("What is your name?")
-    fmt.Scan(&name)
-    return name
-}
-
 func printGreeting(name string) {
 	fmt.Printf("Nice to meet you, %s. My name is Eliza, I'm an old friend of Siri.\n", name)
+}
+
+func adventureTime() {
+	fmt.Println("Let's go on an adventure!")
 }
 
 func travel() {

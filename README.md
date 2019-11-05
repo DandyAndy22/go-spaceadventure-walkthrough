@@ -19,8 +19,8 @@ Traveling to Neptune...
 Arrived at Neptune. A very cold planet, furthest from the sun.
 ```
 
-## Ideas
+## Refactored
 
-TODO
+This walkthrough was an excellent opportunity to practice looking for code smells and refactoring a program.
 
 &copy; 2019 Yong Joseph Bakos. All rights reserved.

@@ -54,7 +54,7 @@ func travelToPlanet(planetName string) {
 			fmt.Println("Arrived at Neptune. A very cold planet, furthest from the sun.")
 
 		}else if planetName == "Mars" {
-			fmt.Println("Arrived at the Mars, the red planet. Watch out for the locals!")
+			fmt.Println("Arrived at Mars, the red planet. Watch out for the locals!")
 
 		}else if planetName == "Venus" {
 			fmt.Println("Arrived at Venus, the other one near Earth. This place is wild.")
@@ -77,7 +77,5 @@ func travelToPlanet(planetName string) {
 		}else if planetName == "Pluto" {
 			fmt.Println("Arrived at Pluto. Fake planet.")
 			
-		}else{
-			fmt.Println("Sorry, I didn't get that.")
 		}
 }
